@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/forgotLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/SignupLoginTheme"
+    tools:context=".activities.ForgotPass">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnBackForgot"
+            android:padding="10dp"
+            android:src="@drawable/back"
+            android:background="@android:color/transparent"
+            android:layout_margin="10dp"
+            app:tint="@color/ptit" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FEFEFE">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_password"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_pass_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="10dp"
+            android:textSize="19sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/edtForgotPass"
+            android:background="@drawable/custom_edittext"
+            android:layout_margin="30dp"
+            android:hint="Enter your Email"
+            android:textColorHint="@color/grey"
+            android:textColor="@color/black"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSubmit"
+            android:text="@string/confirm"
+            android:backgroundTint="@color/ptit"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_img"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"
+            android:visibility="visible"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pbForgotPass"
+            android:layout_gravity="center_horizontal"
+            android:indeterminateTint="@color/ptit"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</LinearLayout>

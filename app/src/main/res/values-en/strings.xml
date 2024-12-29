@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="warning">Warning</string>
+    <string name="noti">Notification</string>
+    <string name="error">Error! An error occurred</string>
+
+    <string name="name_empty">Cannot be empty</string>
+
+    <string name="email_empty">Email cannot be empty</string>
+    <string name="email_invalid">Invalid email</string>
+    <string name="email_format_error">Email format is incorrect</string>
+    <string name="email_verification">Verify your email now. You cannot log in without verifying your email</string>
+    <string name="email_veri_check">Email has not been verified</string>
+    <string name="email_verified">Verified</string>
+    <string name="email_pre_enter">Invalid email. Please re-enter your email</string>
+    <string name="email_send_failed">An error occurred while sending the confirmation. Please try again</string>
+
+
+    <string name="pass_empty">Password cannot be empty</string>
+    <string name="pass_lenght">Password must be more than 6 characters</string>
+    <string name="pass_match">Password not match</string>
+    <string name="confpass_empty">Do not empty</string>
+    <string name="btn_hide_password">Button hide password</string>
+
+    <string name="signup_success">Register successfully</string>
+    <string name="signup_failed">Registration failed\nEmail address is already used by another account</string>
+
+    <string name="login_success">Login successfully</string>
+    <string name="login_failed">Login failed\nPlease try again</string>
+
+    <string name="user_check">User does not exist or is no longer valid\nPlease register again</string>
+    <string name="user_info_check">Invalid information\nCheck and re-enter</string>
+
+    <string name="signup_title">Hi, \nPlease register</string>
+    <string name="sign_up">Sign up</string>
+    <string name="login">Login</string>
+    <string name="confirm">Confirm</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="login_title">Hi, \nPlease login</string>
+
+    <string name="forgot_password">Forgot password?</string>
+    <string name="dont_have_account">Do not have an account?</string>
+    <string name="forgot_pass_content">Please enter the email address associated with your account</string>
+    <string name="forgot_pass_reset">The password reset link has been sent to your registered email. Please check your email notifications</string>
+    <string name="success">Success</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="manager_classroom">Classroom management</string>
+    <string name="out_time">Out of scheduled time</string>
+
+    <string name="no_internet">No internet connection, please reconnect</string>
+    <string name="conti">Continue</string>
+    <string name="classroom_list">List of classrooms</string>
+    <string name="on_going_classroom">Classroom list is ongoing</string>
+    <string name="dont_have_class_going_on">There are currently no classes going on</string>
+    <string name="classroom_info">Information of classroom</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="control_device">Control device</string>
+    <string name="control">Control</string>
+
+    <!-- TODO: Remove o change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="account_info">Account</string>
+    <string name="email">Email</string>
+    <string name="floor5">Floor 5 - Building A2</string>
+    <string name="floor6">Floor 6 - Building A2</string>
+    <string name="note">Note:</string>
+    <string name="blank_room">Empty room</string>
+    <string name="selected_room">The room is already in use</string>
+    <string name="damaged_room">Room is under maintenance</string>
+    <string name="select_room">Set a classroom schedule</string>
+    <string name="morning_time">Morning:  7h00 – 12h00</string>
+    <string name="afternoon_time">Afternoon: 12h00 – 17h00</string>
+    <string name="evening_time">Evening:   17h00 – 22h00</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Log out</string>
+    <string name="profile_info">Account information</string>
+    <string name="customize">Customize</string>
+    <string name="introduction">Introduction</string>
+    <string name="agree">Agree</string>
+    <string name="skip">Skip</string>
+    <string name="desc_logout">Are you sure you want to sign out of this account?</string>
+    <string name="username">Username</string>
+
+    <string name="room_repair">Room is under maintenance/repair</string>
+    <string name="room_full">The room is already in use</string>
+    <string name="room_select">You have already registered for this room</string>
+    <string name="room_desc">Register to use this classroom?</string>
+    <string name="subject">Enter the course name/code</string>
+    <string name="subject_warning">Please select your subject before registering</string>
+    <string name="select_success">Classroom registration successful</string>
+    <string name="good_afternoon">Good afternoon!</string>
+    <string name="good_morning">Good morning!</string>
+    <string name="good_evening">Good evening!</string>
+    <string name="info_room">Registered classroom information</string>
+    <string name="subject_name">Subject</string>
+    <string name="teacher">Teacher</string>
+    <string name="study_time">Study time</string>
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
+    <string name="check_room_selected">You have not registered for any classrooms yet</string>
+    <string name="time_select">Registration date (click below to select date)</string>
+    <string name="time_study">School day</string>
+    <string name="report">Report/complaint</string>
+    <string name="statusReport">Status</string>
+    <string name="time_signup">Registration time</string>
+    <string name="languages">Languages</string>
+    <string name="darkmode">Dark mode</string>
+    <string name="vietnamese">Vietnamese</string>
+    <string name="english">English</string>
+    <string name="report_about">What issue do you want to report/complain about?</string>
+    <string name="light_damaged">The light bulb is damaged</string>
+    <string name="speaker_damaged">The speaker is damaged</string>
+    <string name="fan_damaged">Ceiling fan is damaged</string>
+    <string name="projector_damaged">The projector is damaged</string>
+    <string name="others">Others</string>
+    <string name="classroom">Classroom</string>
+    <string name="calendar">day - month - year</string>
+    <string name="loading">Loading…</string>
+    <string name="choose_time">Choose study time</string>
+
+    <string name="choose_problem">Please choose at least 1 problem</string>
+    <string name="enter_other_content">Please report/complain about the issue you encounter!</string>
+    <string name="not_handle">Unprocessed</string>
+    <string name="handled">Processed</string>
+    <string name="code_handled">handled</string>
+    <string name="code_not_handle">not_handle</string>
+    <string name="dont_have_report">No reports/complaints yet</string>
+    <string name="handled_report">The report/complaint has been processed</string>
+    <string name="handled_report_success">Report/complaint has been successfully processed</string>
+    <string name="handle_report">Handle reports/complaints</string>
+
+    <string name="saved">Saved</string>
+    <string name="please_login">Please log in to your account</string>
+    <string name="select_day">Select day</string>
+    <string name="cancel_signup">Cancel registration</string>
+    <string name="cancel_desc">Are you sure you want to cancel registration from this class?</string>
+    <string name="cancel_success">Classroom registration canceled</string>
+    <string name="cant_cancel">Cannot cancel damaged room booking</string>
+    <string name="has_damaged">was damaged</string>
+    <string name="damaged_device">The room is damaged, the equipment cannot be controlled</string>
+    <string name="clear_all">Clear all</string>
+    <string name="noti_register">You have successfully registered for classroom</string>
+    <string name="noti_cancel">You have unregistered from classroom</string>
+    <string name="no_noti">No notifications</string>
+    <string name="clear_all_success">All notifications removed</string>
+    <string name="clear_all_noti">Delete all notifications?</string>
+    <string name="not_date_study">It is not even school day yet</string>
+    <string name="deleted_noti">Notification removed</string>
+
+    <string name="s1">Programming Techniques</string>
+    <string name="s2">Object-Oriented Programming</string>
+    <string name="s3">IoT Architecture and Protocols</string>
+    <string name="s4">Embedded Programming</string>
+    <string name="s5">IoT Embedded Systems</string>
+    <string name="s6">Data Storage and Analysis</string>
+    <string name="s7">Advanced IoT Solutions and Systems</string>
+    <string name="s8">Sensor Systems</string>
+    <string name="s9">Database</string>
+    <string name="s10">Graduation Project</string>
+
+
+    <string name="intro">Introductions</string>
+    <string name="intro_start">is a comprehensive solution that optimizes classroom management and usage, bringing flexibility, convenience, and efficiency to users. With outstanding functions such as room registration, schedule management, remote device control, and event reminders, the application will become a powerful assistant in organizing and running classes, seminars, and meetings.</string>
+    <string name="intro_feature">Key Features:</string>
+    <string name="feature1">1. Room Booking: </string>
+    <string name="feature2">2. Device Control: </string>
+    <string name="feature3">3. Schedule Management: </string>
+    <string name="feature4">4. Notifications and Reminders: </string>
+    <string name="intro_feature1">Easily search and reserve classrooms according to your requirements, from the number of participants to the duration of usage.</string>
+    <string name="intro_feature2">Remotely control devices in the classroom such as projectors, lights, and fans, saving you time and enhancing your user experience.</string>
+    <string name="intro_feature3">Track classroom usage schedules and manage your current and future bookings conveniently.</string>
+    <string name="intro_feature4">Receive notifications and reminders about upcoming meetings and any changes in your schedule.</string>
+    <string name="intro_end">is an indispensable tool for individuals and organizations that want to improve the efficiency of classroom space usage, optimize organizational processes and bring professional experiences to users. </string>
+    <string name="delete">Delete</string>
+    <string name="restore_success">Notification restored</string>
+    <string name="on_all">Turn on all devices</string>
+    <string name="off_all">Turn off all devices</string>
+</resources>

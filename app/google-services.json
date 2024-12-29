@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "925448503913",
+    "project_id": "manager-classroom-4b6da",
+    "storage_bucket": "manager-classroom-4b6da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925448503913:android:bca43176c4c7701d3c98f8",
+        "android_client_info": {
+          "package_name": "com.example.managerclassroom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwIqJPKEYT9X31dCVgi7lDdtqFdPVNffk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
